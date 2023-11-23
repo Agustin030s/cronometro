@@ -48,7 +48,7 @@ const incrementarHoras = () => {
 }
 
 const iniciarCronometro = () =>{
-    intervalId = setInterval(incrementarSegundos, 10);
+    intervalId = setInterval(incrementarSegundos, 1000);
 }
 
 const pausarCronometro = () =>{
